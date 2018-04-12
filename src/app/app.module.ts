@@ -18,6 +18,8 @@ import { IndexComponent } from './index/index.component';
 
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +32,7 @@ import { IndexComponent } from './index/index.component';
     AppRoutingModule,
     ReactiveFormsModule
   ],
-  providers: [ClientService,LoginService, ErrorInterceptorProvider],
+  providers: [ClientService,LoginService, , ErrorInterceptorProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
